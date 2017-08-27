@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js && ./node_modules/.bin/mocha --reporter spec && jshint index.js"
+    "test": "./node_modules/.bin/mocha --reporter spec && jshint index.js"
   },
   "repository": {
     "type": "git",
