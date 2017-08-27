@@ -26,7 +26,7 @@ app.post('/plus',(req,res)=>{
     const result = plus(num1,num2);
     res.json({
         result
-    })
+    });
 });
 
 app.post('/multiply',(req,res)=>{
@@ -34,7 +34,7 @@ app.post('/multiply',(req,res)=>{
     const result = multiply(num1,num2);
     res.json({
         result
-    })
+    });
 });
 
 app.post('/divide',(req,res)=>{
@@ -42,7 +42,7 @@ app.post('/divide',(req,res)=>{
     const result = divide(num1,num2);
     res.json({
         result
-    })
+    });
 });
 
 app.post('/minus',(req,res)=>{
@@ -50,7 +50,7 @@ app.post('/minus',(req,res)=>{
     const result = minus(num1,num2);
     res.json({
         result
-    })
+    });
 });
 
 app.listen(3000,()=>{
